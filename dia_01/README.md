@@ -13,3 +13,22 @@
 - Repositorio: carpeta de proyecto bajo control de Git
 - Commit: registro firmado de un estado del código
 - Entorno virtual: burbuja aislada de dependencias por proyecto
+
+## Flujo de trabajo dirio
+''bash
+conda activate dataci
+cd Documents/data-cience-journey
+git pull origin main
+# ... trabajar ...
+git add .
+git commint -m "feat: descripcion"
+git push origin main
+
+Luego hacé el commit:
+
+'''bash
+git add .
+git commit -m "docs: flujo de trabajo diario agragado al README"
+git push origin main
+'''
+
